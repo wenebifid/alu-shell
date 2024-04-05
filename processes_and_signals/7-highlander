@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#kill 7-highlander process
+
+while :
+do
+echo"To Infinity and beyond"
+sleep 2
+trap 'echo "I am invincible!!!"' SIGTERM
+done
