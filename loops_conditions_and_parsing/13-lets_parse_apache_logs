@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#using awk to extract IP and HTTP code from Apache file
+log_file="apache-access.log"
+awk '{print $1, $9}' "$log_file"
+

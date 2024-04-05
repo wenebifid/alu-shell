@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#extract part of name after 1st dash
+for i in *
+do
+    echo "$i" | cut -f 2- -d '-'
+done
+

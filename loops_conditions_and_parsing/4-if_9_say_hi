@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#While loop to display "Best school 10 to 9th iterations and echo hi in new line
+counter=0
+
+while [ $counter -lt 10 ]
+do
+  if [ $counter -eq 9 ]
+  then
+    echo "Hi"
+   fi
+    echo "Best School"
+  ((counter++))
+done
+
